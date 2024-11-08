@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid hsl(0, 100%, 25%);
+    border-radius: 50px;
+}
+
+p {
+    background-color: #ff0000ff;
+}
